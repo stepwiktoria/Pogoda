@@ -64,3 +64,7 @@ def sign_up():
             return redirect(url_for('views.home'))
 
     return render_template("sign_up.html", user=current_user)
+
+@auth.route('/timer', methods=['GET', 'POST'])
+def timer():
+    return render_template("timer.html", user=current_user)
