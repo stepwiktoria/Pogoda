@@ -1,0 +1,16 @@
+body {
+  background-color: #A8C8ED;
+  background-image: linear-gradient(#EEAECA, #7673DC);
+  height: 1500px;
+}
+
+/* timer.css */
+#timer-container {
+  box-sizing: border-box;
+  position: center;
+  width: 730px;
+  height: 422px;
+  background: rgba(229, 229, 229, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
