@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% block title %}Pomodoro Timer{% endblock %}
 {% block content %}
+<body>
   <div id="timer-container">
-    <h2 id="timerp" onclick="startTimer()">Timer</h2>
-    <button onclick="startTimer()">Start</button>
+    <h2 id="timerp">Timer</h2>
+    <button type="submit" class="btn btn-primary" onclick="startTimer()">Start</button>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -32,4 +33,5 @@
       }, 1000);
     }
   </script>
+  </body>
 {% endblock %}
