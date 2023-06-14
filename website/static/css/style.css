@@ -1,13 +1,16 @@
 body {
-  background-color: #A8C8ED;
-  background-image: linear-gradient(#EEAECA, #7673DC);
-  height: 864px;
+  background-color: #eeaecaf7;
+  background-image: linear-gradient(#eeaecaf7, #eeaecaf7);
+  height: auto;
   font-family: 'Helvetica';
   font-style: thin;
   font-weight: lighter;
   color:beige
 
 }
+
+/* xd background-color: #A8C8ED;
+background-image: linear-gradient(#EEAECA, #7673DC);*/ 
 
 #page-title {
   text-align: center;
@@ -92,15 +95,6 @@ button.btn-primary {
   padding: 19px 24px;
   cursor: pointer;
 }
-
-.button.btn-primary:active,
-.button.btn-primary:hover {
-  background-color: rgba(255, 255, 255, 0.132);
-  border: 3px solid transparent;
-  border-radius: 8px;
-  color: #FFFFFF;
-}
-
 
 .form-control {
   background-color: rgba(255, 255, 255, 0.5);
